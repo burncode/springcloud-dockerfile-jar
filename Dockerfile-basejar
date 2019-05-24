@@ -1,0 +1,11 @@
+# using alpine-glibc instead of alpine  is mainly because JDK relies on glibc
+FROM docker.io/jeanblanchard/alpine-glibc
+# author
+MAINTAINER burncode <mh_1231995@sina.com>
+# A streamlined jre
+ADD jre /usr/java/jdk/
+# set env
+ENV JAVA_HOME /usr/java/jdk
+ENV PATH ${PATH}:${JAVA_HOME}/bin
+# run container with base path:/opt
+WORKDIR /opt
