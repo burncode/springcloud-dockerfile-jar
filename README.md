@@ -2,6 +2,6 @@
 
 ## 主要的环境变量有以下几个
 
-- [服务提供暴露端口] SERVER_PORT_ENV 31005
-- [jar 包运行参数] JAVA_OPTS_ENV -Xms256m -Xmx512m
-- [jar 包名称,这里为了统一是 jar 包打包后的 artifactId] JAR_NAME_ENV hy_bus_registration_admin_server
+- [服务提供暴露端口] SERVER_PORT_ENV (例如:31005)
+- [jar 包运行参数] JAVA_OPTS_ENV (例如: -Xms256m -Xmx512m)
+- [jar 包名称,这里为了统一是 jar 包打包后的 artifactId] JAR_NAME_ENV (例如:hy_bus_registration_admin_server)
