@@ -1,6 +1,7 @@
 #基础镜像：仓库是java，tag是8
 FROM 172.16.1.85:8888/hybase/jre8:1.0
-
+# MAINTAINER
+MAINTAINER burncode@qq.com
 #安装相关命令
 RUN apk update && apk add curl bash tree tzdata \
 
