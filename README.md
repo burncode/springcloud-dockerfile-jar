@@ -9,5 +9,7 @@
     - [ jar 包名称,这里为了统一是 jar 包打包后mavenartifactId ] JAR_NAME_ENV (例如:hy_bus_registration_admin_server)
 
 ```
-> 已经对时区做了处理，这里引用的基础jar包为自己基于 docker.io/jeanblanchard/alpine-glibc制作的，Dockerfile为仓库中的Dockfile-basejar
+
 ```
+
+##### 已经对时区做了处理，这里引用的基础 jar 包为自己基于 docker.io/jeanblanchard/alpine-glibc 制作的，Dockerfile 为仓库中的 Dockfile-basejar
